@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Inter", sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.main__container{
+    background-color: white;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.main__container-heading {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.main__container-subheading {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.add__content_container{
+    margin-top: 20px;
+    
+}
+
+.add__content__container-input{
+    margin: 24px 0;
+    padding: 12px;
+    width: 100%;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+.main__container-input{
+    width: 100%;
+    border: 1px solid #cccccc;
+    padding:12px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+}
+
+.main__container-input:focus{
+    outline: none;
+    border-color: #007bff;
+}
+.main__container-button{
+    width: 100%;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    border-radius: 6px;
+}
+.main__container-button:hover{
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+.contact__list__container{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content__item__container{
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    margin: 16px 0;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.content__item__container:hover{
+    transform: translateY(-4px);
+}
+
+
+.contact__detail__container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 4px;
+    align-items: left;
+    justify-content: left;
+    width: 100%;
+}
+
+.content__item-button{
+    color: white;
+    background-color: #ff0000;
+    border: none;
+    padding: 8px;
+    font-size: 20px;
+    transition: background-color 0.3s ease;
+    border-radius: 6px;
+    width: 40px;
+    box-sizing: border-box;
+}
+
+.content__item-button:hover{
+    background-color: #cc0000;
+    cursor: pointer;
+}
+
+.contact__detail-name{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contact__detail-email{
+    font-size: 14px;
+    font-weight: 400;
+    color: #807a7a;
+}
+
+.content__item-image{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.content__item__image-file{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    object-fit: cover;
+}
